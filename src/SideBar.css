@@ -1,0 +1,34 @@
+
+.Side-bar {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 25%;
+  height: 100%;
+  padding: 0 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  text-align: center;
+}
+
+.Side-bar .close {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  padding: 20px;
+  text-align: right;
+  font-size: 30px;
+}
+
+.Side-bar .close:hover {
+  cursor: pointer;
+}
+
+.Side-bar .sideBar-input {
+margin: 50px 0;
+}
+
+.Side-bar label {
+font-size: 20px;
+}
